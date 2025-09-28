@@ -1,0 +1,107 @@
+body{
+margin:0px;
+display:flex;
+justify-content: center;
+align-items:center;
+height:100vh;
+background-color: hsl(0,0%,95%);
+}
+
+#calculator{
+font-family: Arial, Helvetica, sans-serif;
+background-color: hsl(0,0%,15%);
+border-radius: 15px;
+max-width: 500px;
+overflow: hidden;
+}
+
+#display{
+width:100%;
+padding:25px;
+font-size: 2rem;
+text-align: left;
+border:none;
+background-color: hsl(0,0%,20%);
+color:white;
+}
+
+#keys {
+display:grid;
+grid-template-columns: repeat(4,1fr);
+gap : 10px;
+padding : 25px;
+}
+
+#trademark {
+    color:hsl(0,0%,50%);
+    font-size: 1rem;
+    text-align: center;
+    padding: 0 25px 15px 25px;
+    font-weight: normal;
+}
+
+
+button {
+width : 100px;
+height:100px;
+border-radius: 50px;
+border : none;
+background-color: hsl(0,0%,30%);
+color : white;
+font-size : 3rem;
+font-weight : bold;
+cursor: pointer;
+}
+
+#ansPlus-btn {
+width : 215px;
+height:100px;
+border-radius: 75px;
+border : none;
+background-color: hsl(35,100%,55%);
+color : white;
+font-size : 3rem;
+font-weight : bold;
+cursor: pointer;
+grid-column: span 2;
+padding:25px;
+align-items:center;
+}
+
+
+
+#ansPlus-btn:hover{
+background-color: hsl(35, 100%, 55%);
+}
+
+
+
+#ansPlus-btn:active{
+background-color: hsl(35,100%,65%);
+}
+
+button:hover {
+background-color: hsl(0, 0%, 40%);
+}
+
+
+
+button:active{
+background-color: hsl(0,0%,50%);
+}
+
+
+
+.operator-btn {
+background-color: hsl(35,100%,55%);
+}
+
+.operator-btn:hover{
+background-color: hsl(35,100%,65%);;
+}
+
+
+
+.operator-btn:active {
+background-color: hsl(35,100%,75%);
+}
